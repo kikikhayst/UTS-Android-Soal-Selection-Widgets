@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView_081"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilih Jawaban yang Benar!"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textView2_081"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Berikut ini yang termasuk Operating System:"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox_081"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RedHat Linux"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox2_081"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Microsoft XP"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox3_081"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MySQL"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button_081"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cek Jawaban"
+                app:backgroundTint="#F06292" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3_081"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+    </LinearLayout>
+</RelativeLayout>
